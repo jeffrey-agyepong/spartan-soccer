@@ -1,0 +1,19 @@
+{
+  "theme": {
+    "PHPNamespace": "WP_Rig\\WP_Rig",
+    "slug": "spartan-soccer",
+    "name": "spartan-soccer",
+    "author": "J.A Web Design",
+    "author_uri": "https://jawebdesign.ca",
+    "description": "Spartan Soccer Theme",
+    "version": "1.0.0"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "spartan-soccer.local",
+      "bypassPort": "8181",
+      "https": false
+    }
+  }
+}

@@ -1,0 +1,162 @@
+/**
+ * Custom styles for the front-page.php template.
+ **/
+
+/* ------ HERO BANNER ------ */
+
+.hero-banner {
+	background-image: url("http://spartan-soccer.local/wp-content/uploads/2024/05/hero-image-spartan.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	font-weight: bold;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-overlay {
+	background-color: #12424dd0;
+	opacity: 0.78;
+	transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+	width: 100%;
+	height: 75.5vh;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.hero-text {
+	position: relative;
+	padding: 10px;
+}
+
+.hero-banner h2 {
+	text-transform: uppercase;
+	font-size: clamp(2.25rem, 1.2273rem + 5.4545vw, 6rem);
+	margin: 0;
+	padding-top: 50px;
+}
+.hero-banner p {
+	font-size: 1.5rem;
+}
+.flex-btn {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	font-size: 1rem;
+	text-align: center;
+	width: 100%;
+}
+.about .btn {
+	margin-bottom: 1.5rem;
+}
+.about,
+.programs,
+.gallery-section,
+.sponsors,
+.newsletter {
+	padding: 15px;
+}
+
+.program-card {
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 8px;
+	margin-bottom: 1.5rem;
+}
+.program-card .header {
+	color: #000000;
+	background: #D9D9D9;
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+	padding: 10px;
+	text-align: center;
+}
+.program-body {
+	background: #253740;
+	width: 100%;
+	padding: 10px;
+}
+.program-link{
+	background: #40525A;
+	width: 100%;
+	border-radius: 0 0 15px 15px;
+	padding: 10px;
+	text-align: center;
+}
+.program-link a{
+	color: #ffffff;
+
+}
+
+.sponsor-logos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
+@media (--sidebar-query) {
+	.hero-banner {
+		height: 80vh;
+
+		h2 {
+		}
+
+		p {
+			padding: 0;
+			margin: 1.5rem;
+		}
+	}
+
+	.flex-btn {
+		display: flex;
+		gap: 60px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.hero-banner .hero-banner .site {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-areas:
+			"header header header header"
+			"main main main main"
+			"footer footer footer footer";
+		justify-content: center;
+	}
+
+	.post {
+		margin-bottom: 0;
+		padding: 0 2rem;
+		border-radius: 0.5em;
+		box-shadow: 0 2px 8px hsla(0, 0%, 50%, 0.8);
+	}
+
+	.post:first-of-type {
+		grid-column: span 2;
+		margin: 0;
+		padding: 0;
+	}
+
+	.wp-block-image.alignleft,
+	.wp-caption.alignleft {
+		margin-left: 0;
+	}
+
+	.wp-block-image.alignright,
+	.wp-caption.alignright {
+		margin-right: 0;
+	}
+
+	.entry-footer {
+		border-bottom: none;
+	}
+
+	.site-main .posts-navigation {
+		width: 100%;
+		margin-bottom: 0;
+		padding: 2rem 0 0;
+		border-top: 1px solid var(--global-font-color);
+		border-bottom: none;
+	}
+}
