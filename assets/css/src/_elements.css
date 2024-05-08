@@ -103,9 +103,9 @@ table {
 	padding-right: 1.5rem;
 	padding-left: 1.5rem;
 	text-align: center;
-	font-size: 1rem;
+	font-size: 1.25rem;
 	line-height: 1.5rem;
-	font-weight: 500;
+	font-weight: bold;
 	line-height: 1.375;
 	transition-property: color, background-color, border-color,
 		text-decoration-color, fill, stroke, opacity, box-shadow, transform,
@@ -122,8 +122,12 @@ table {
 	width: 100%;
 }
 
+.btn-secondary{
+	color: #111212 !important;
+	background-color: #ffffff;
+}
 .btn:hover {
-	background-color: #009670;
+	background-color: #00aaff;
 	border-color: #ffffff;
 	color: #ffffff;
 }

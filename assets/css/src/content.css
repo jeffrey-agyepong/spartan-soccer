@@ -334,6 +334,9 @@ a {
 	display: block;
 	padding: 15px;
 }
+.responsive-table h3{
+	color: #a93338;
+}
 
 [class^="day-section"] {
 	margin-bottom: 1rem;

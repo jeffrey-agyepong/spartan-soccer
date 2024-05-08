@@ -22,7 +22,8 @@ if ( is_home() ) {
 <main id="primary" class="site-main">
 	<!-- -------HERO SECTION------- -->
 	<section class="hero-banner">
-		<div class="banner-overlay"></div>
+		<!-- <div class="banner-overlay"></div> -->
+		<div class="grid-container">
 		<div class="hero-text">
 			<h2>
 				Alberta's Premier Independent Soccer Association
@@ -30,10 +31,11 @@ if ( is_home() ) {
 			<p>
 				Experience Soccer, Build Community.
 			</p>
-			<div class="flex-btn">
-				<a href="" class="btn">Join The Spartan Family</a>
-				<a href="" class="btn">Get In Touch</a>
+			<div class="flex-btn uppercase">
+				<a href="/recruitment" class="btn">Join The Spartan Family</a>
+				<a href="/contact" class="btn btn-secondary">Get In Touch</a>
 			</div>
+		</div>
 		</div>
 	</section>
 
@@ -110,13 +112,16 @@ if ( is_home() ) {
 	</section>
 
 	<!-- -------BACKGROUND------- -->
-	<section class="bg-img">
-		<h3>
-			Serving Our Soccer Community Since 2017
-		</h3>
-		<p>
-			~soccer for passion~
-		</p>
+	<section class="fp-bg-img">
+		<!-- <div class="banner-overlay"></div> -->
+		<div class="container">
+			<h3>
+				Serving Our Soccer Community Since 2017
+			</h3>
+			<p>
+				~soccer for passion~
+			</p>
+		</div>
 	</section>
 
 	<!-- -------Gallery------- -->
@@ -126,28 +131,28 @@ if ( is_home() ) {
 		</h2>
 		<div class="gallery">
 			<div class="gallery-img">
-				<img src="https://via.placeholder.com/500" alt="Gallery Image">
+				<img src="./wp-content/uploads/2024/05/gallery01.webp" alt="Spartan Gallery Image">
 			</div>
 			<div class="gallery-img">
-				<img src="https://via.placeholder.com/500" alt="Gallery Image">
+				<img src="./wp-content/uploads/2024/05/gallery02.webp" alt="Spartan Gallery Image">
 			</div>
 			<div class="gallery-img">
-				<img src="https://via.placeholder.com/500" alt="Gallery Image">
+				<img src="./wp-content/uploads/2024/05/gallery03.webp" alt="Spartan Gallery Image">
 			</div>
 			<div class="gallery-img">
-				<img src="https://via.placeholder.com/500" alt="Gallery Image">
+				<img src="./wp-content/uploads/2024/05/gallery04.webp" alt="Spartan Gallery Image">
 			</div>
 			<div class="gallery-img">
-				<img src="https://via.placeholder.com/500" alt="Gallery Image">
+				<img src="./wp-content/uploads/2024/05/gallery05.webp" alt="Spartan Gallery Image">
 			</div>
 			<div class="gallery-img">
-				<img src="https://via.placeholder.com/500" alt="Gallery Image">
+				<img src="./wp-content/uploads/2024/05/gallery06.webp" alt="Spartan Gallery Image">
 			</div>
 			<div class="gallery-img">
-				<img src="https://via.placeholder.com/500" alt="Gallery Image">
+				<img src="./wp-content/uploads/2024/05/gallery07.webp" alt="Spartan Gallery Image">
 			</div>
 			<div class="gallery-img">
-				<img src="https://via.placeholder.com/500" alt="Gallery Image">
+				<img src="./wp-content/uploads/2024/05/gallery08.webp" alt="Spartan Gallery Image">
 			</div>
 
 		</div>
@@ -160,50 +165,52 @@ if ( is_home() ) {
 		</h2>
 		<div class="sponsor-logos">
 			<div class="sponsor-logo">
-				<img src="https://via.placeholder.com/100" alt="Sponsor Logo">
+				<img src="/wp-content/uploads/2024/05/advantage.png" class="light-bg" alt="Advantage Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="https://via.placeholder.com/100" alt="Sponsor Logo">
+				<img src="/wp-content/uploads/2024/05/Panago-Logo.png" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="https://via.placeholder.com/100" alt="Sponsor Logo">
+				<img src="/wp-content/uploads/2024/05/moxies.png" class="light-bg" alt="Moxies Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="https://via.placeholder.com/100" alt="Sponsor Logo">
+				<img src="/wp-content/uploads/2024/05/powerplay.png" class="light-bg" alt="Powerplay Sports Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="https://via.placeholder.com/100" alt="Sponsor Logo">
+				<img src="/wp-content/uploads/2024/05/tree.png" class="rounded" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="https://via.placeholder.com/100" alt="Sponsor Logo">
+				<img src="http://spartan-soccer.local/wp-content/uploads/2024/05/infusef.png" class="light-bg" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="https://via.placeholder.com/100" alt="Sponsor Logo">
+				<img src="/wp-content/uploads/2024/05/dazzlling-dogs.png" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="https://via.placeholder.com/100" alt="Sponsor Logo">
+				<img src="/wp-content/uploads/2024/05/eurosport.png" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="https://via.placeholder.com/100" alt="Sponsor Logo">
+				<img src="/wp-content/uploads/2024/05/viva-tan.png" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="https://via.placeholder.com/100" alt="Sponsor Logo">
+				<img src="/wp-content/uploads/2024/05/central-social-hall.png" class="light-bg" alt="Sponsor Logo">
 			</div>
 		</div>
 	</section>
 
 	<!-- -------Newsletter------- -->
 	<section class="newsletter">
-		<h2>
-			Subscribe to Our Newsletter
-		</h2>
+		<div class="newsletter-card rounded">
+			<h2>
+				Subscribe to Our Newsletter
+			</h2>
 
-		<div class="newsletter-container">
-			<img src="" alt="">
-			<form action="">
-				<input type="email" placeholder="Enter your email">
-				<button>Subscribe</button>
-			</form>
+			<div class="newsletter-container">
+				<img src="" alt="">
+				<form action="">
+					<input type="email" placeholder="Enter your email">
+					<button>Subscribe</button>
+				</form>
+			</div>
 		</div>
 	</section>
 </main><!-- #primary -->

@@ -28,6 +28,9 @@ h6 {
 	font-stretch: condensed;
 	clear: both;
 }
+h2{
+	font-size: var(--font-size-larger);
+}
 
 .entry-title-singular,
 .page-title {
