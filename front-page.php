@@ -24,43 +24,79 @@ if ( is_home() ) {
 	<section class="hero-banner">
 		<!-- <div class="banner-overlay"></div> -->
 		<div class="grid-container">
-		<div class="hero-text">
-			<h2>
-				Alberta's Premier Independent Soccer Association
-			</h2>
-			<p>
-				Experience Soccer, Build Community.
-			</p>
-			<div class="flex-btn uppercase">
-				<a href="/recruitment" class="btn">Join The Spartan Family</a>
-				<a href="/contact" class="btn btn-secondary">Get In Touch</a>
+			<div class="hero-text">
+				<h2>
+					Alberta's Premier Independent Soccer Association
+				</h2>
+				<p>
+					Experience Soccer, Build Community.
+				</p>
+				<div class="flex-btn uppercase">
+					<a href="/recruitment" class="btn">Join The Spartan Family</a>
+					<a href="/contact" class="btn btn-secondary">Get In Touch</a>
+				</div>
 			</div>
-		</div>
 		</div>
 	</section>
 
 	<!-- -------ABOUT SECTION------- -->
-	<section class="about">
-		<div class="about-text">
-			<h2>About Spartan Soccer</h2>
-			<p>
-				Founded in 2017 as a summer tournament, we exploded into a thriving co-ed soccer league,
-				multiple annual tournaments, and bootcamps. In 2020 we debuted our Women’s and Men’s Open League, and
-				our Youth Program. When the pandemic hit, we were able to pivot on a
-				dime and offer a free outdoor soccer program as a way of giving back to the community and help people
-				cope with the stress of the pandemic.  We have evolved with the times to provide cohort sports. Now with
-				that behind us, we are steam rolling forward with many initiatives to build the soccer community for
-				all. We hope you join our movement!
-			</p>
-			<a href="" class="btn">Get Involved</a>
-		</div>
-		<div class="about-img">
-			<img src="./wp-content/uploads/2024/05/about-section-spartan.webp" alt="About Us Image" class="rounded">
-		</div>
-	</section>
+	<div class="grid-container grid-container-2">
+		<section class="about">
+			<div class="about-text">
+				<h2>About Spartan Soccer</h2>
+				<p>
+					Founded in 2017 as a summer tournament, we exploded into a thriving co-ed soccer league,
+					multiple annual tournaments, and bootcamps. In 2020 we debuted our Women’s and Men’s Open League,
+					and
+					our Youth Program. When the pandemic hit, we were able to pivot on a
+					dime and offer a free outdoor soccer program as a way of giving back to the community and help
+					people
+					cope with the stress of the pandemic.  We have evolved with the times to provide cohort sports. Now
+					with
+					that behind us, we are steam rolling forward with many initiatives to build the soccer community for
+					all. We hope you join our movement!
+				</p>
+				<a href="" class="btn">Get Involved</a>
+			</div>
+			<div class="about-img">
+				<img src="./wp-content/uploads/2024/05/about-section-spartan.webp" alt="About Us Image" class="rounded">
+			</div>
+		</section>
+		<section class="headlines">
+			<h2>Spartan Headlines</h2>
+			<div class="program-card">
+				<div class="program-body">
+				<h3>Video Conference</h3>
+					<p>
+						Find out more about Spartan
+					</p>
+					<ul>
+						<li>Do you manage a team, club, or league?</li>
+						<li>Do you need tournament sanctioning?</li>
+						<li>Do you need game officials?</li>
+					</ul>
+					<p>
+						Send us an email for a video conference and learn about all the things we can do for you.
+					</p>
+				</div>
+			</div>
+			<div class="program-card">
+				<div class="program-body">
+				<h3>Youth Club & Community</h3>
+					<p>
+						Go to Programs menu for details
+					</p>
+					<video width="250px" height="250px" controls="controls">
+						<source src="http://spartan-soccer.local/wp-content/uploads/2024/05/Youth-Evaluations-2023.mp4" type="video/mp4" />
+					</video>
+				</div>
+			</div>
+		</section>
+	</div>
 
 	<!-- -------PROGRAMS------- -->
 	<section class="programs">
+		<div class="container">
 		<h2 class="uppercase">Programs</h2>
 		<div class="program-cards">
 			<div class="program-card">
@@ -109,6 +145,7 @@ if ( is_home() ) {
 				</div>
 			</div>
 		</div>
+		</div>
 	</section>
 
 	<!-- -------BACKGROUND------- -->
@@ -126,7 +163,8 @@ if ( is_home() ) {
 
 	<!-- -------Gallery------- -->
 	<section class="gallery-section">
-		<h2>
+	<div class="container">
+	<h2>
 			Gallery
 		</h2>
 		<div class="gallery">
@@ -156,10 +194,12 @@ if ( is_home() ) {
 			</div>
 
 		</div>
+	</div>
 	</section>
 
 	<!-- -------Sponsors------- -->
 	<section class="sponsors">
+		<div class="container">
 		<h2>
 			Our Sponsors
 		</h2>
@@ -168,32 +208,34 @@ if ( is_home() ) {
 				<img src="/wp-content/uploads/2024/05/advantage.png" class="light-bg" alt="Advantage Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="/wp-content/uploads/2024/05/Panago-Logo.png" alt="Sponsor Logo">
+				<img src="./wp-content/uploads/2024/05/Panago-Logo.png" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="/wp-content/uploads/2024/05/moxies.png" class="light-bg" alt="Moxies Logo">
+				<img src="./wp-content/uploads/2024/05/moxies.png" class="light-bg" alt="Moxies Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="/wp-content/uploads/2024/05/powerplay.png" class="light-bg" alt="Powerplay Sports Logo">
+				<img src="./wp-content/uploads/2024/05/powerplay.png" class="light-bg" alt="Powerplay Sports Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="/wp-content/uploads/2024/05/tree.png" class="rounded" alt="Sponsor Logo">
+				<img src="./wp-content/uploads/2024/05/tree.png" class="rounded" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="http://spartan-soccer.local/wp-content/uploads/2024/05/infusef.png" class="light-bg" alt="Sponsor Logo">
+				<img src="./wp-content/uploads/2024/05/infusef.png" class="light-bg"
+					alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="/wp-content/uploads/2024/05/dazzlling-dogs.png" alt="Sponsor Logo">
+				<img src="./wp-content/uploads/2024/05/dazzlling-dogs.png" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="/wp-content/uploads/2024/05/eurosport.png" alt="Sponsor Logo">
+				<img src="./wp-content/uploads/2024/05/eurosport.png" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="/wp-content/uploads/2024/05/viva-tan.png" alt="Sponsor Logo">
+				<img src="./wp-content/uploads/2024/05/viva-tan.png" alt="Sponsor Logo">
 			</div>
 			<div class="sponsor-logo">
-				<img src="/wp-content/uploads/2024/05/central-social-hall.png" class="light-bg" alt="Sponsor Logo">
+				<img src="./wp-content/uploads/2024/05/central-social-hall.png" class="light-bg" alt="Sponsor Logo">
 			</div>
+		</div>
 		</div>
 	</section>
 
@@ -205,7 +247,7 @@ if ( is_home() ) {
 			</h2>
 
 			<div class="newsletter-container">
-				<img src="" alt="">
+				<img src="./wp-content/uploads/2024/05/envelope.png" alt="" class="mail">
 				<form action="">
 					<input type="email" placeholder="Enter your email">
 					<button>Subscribe</button>

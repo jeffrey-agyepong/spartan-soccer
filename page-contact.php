@@ -17,7 +17,8 @@ wp_rig()->print_styles( 'wp-rig-content' );
 ?>
 <main id="primary" class="site-main">
 
-	<section class="contact">
+<div class="container">
+<section class="contact">
 		<div class="page-header">
 			<h2 class="uppercase">
 				<?php the_title(); ?>
@@ -51,6 +52,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 		</div>
 
 	</section>
+</div>
 
 
 </main><!-- #primary -->

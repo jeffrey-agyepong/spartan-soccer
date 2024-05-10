@@ -21,7 +21,8 @@ wp_rig()->print_styles( 'wp-rig-content' );
 				<?php the_title(); ?>
 			</h2>
 		</div>
-		<div class="program-content">
+<div class="container">
+<div class="program-content">
 			<div class="headline-section">
 				<p>
 					Keep your teams together - Registration is open!
@@ -101,8 +102,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 				<p class="day-content url">Yes Footie Adults</p>
 			</section>
 		</div>
-
-
+</div>
 	</section>
 </main><!-- #primary -->
 <?php

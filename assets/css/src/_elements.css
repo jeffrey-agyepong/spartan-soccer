@@ -25,6 +25,7 @@ html {
 body {
 	background: #050F1A;
 	color: #DEE3E7;
+	overflow-x: hidden;
 	/* Fallback for when there is no custom background color defined. */
 }
 

@@ -21,7 +21,8 @@ wp_rig()->print_styles( 'wp-rig-content' );
 				<?php the_title(); ?>
 			</h2>
 		</div>
-		<div>
+	<div class="container">
+	<div>
 			<p>
 				This page is for both players looking for a team to play on and teams looking for players. Complete
 				whichever form applies to you and we will reach out to you to help facilitate your needs!
@@ -72,6 +73,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 			<label for="player-comments">Player Comments:</label>
 			<textarea name="player-comments" id="player-comments" cols="30" rows="10"></textarea>
 		</form>
+	</div>
 	</section>
 </main><!-- #primary -->
 <?php
