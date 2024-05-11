@@ -658,8 +658,8 @@ nav div.wp-block-navigation__responsive-dialog {
 	/* margin: 0 auto 2em;
 	padding: 0 1em; */
 	/* max-width: var(--content-width); */
-	font-family: var(--highlight-font-family);
-	font-size: var(--font-size-medium);
+	font-family: var(--global-font-family);
+	font-size: var(--font-size-small);
 	font-stretch: condensed;
 
 	& ul ul li {

@@ -12,7 +12,7 @@
 	background: #053a4e;
 }
 .hero-banner::before{
-	background-image: url("/wp-content/uploads/2024/05/hero-image-spartan.webp");
+	background-image: url("https://jagyepong.com/spartansoccer/wp-content/uploads/2024/05/hero-image-spartan.webp");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -47,6 +47,7 @@
 }
 .about .btn {
 	margin-bottom: 1.5rem;
+	max-width: 220px;
 }
 .about,
 .programs,
@@ -120,7 +121,7 @@ video{
 	position: absolute;
 	inset: 0;
 	opacity: 0.3;
-	background-image: url("/wp-content/uploads/2024/05/bg-img-spartan.webp");
+	background-image: url("https://jagyepong.com/spartansoccer/wp-content/uploads/2024/05/bg-img-spartan.webp");
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;

@@ -87,7 +87,7 @@ if ( is_home() ) {
 						Go to Programs menu for details
 					</p>
 					<video width="250px" height="250px" controls="controls">
-						<source src="http://spartan-soccer.local/wp-content/uploads/2024/05/Youth-Evaluations-2023.mp4" type="video/mp4" />
+						<source src="./wp-content/uploads/2024/05/Youth-Evaluations-2023.mp4" type="video/mp4" />
 					</video>
 				</div>
 			</div>

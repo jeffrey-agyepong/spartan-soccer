@@ -92,6 +92,7 @@ table {
 
 .btn {
 	background-color: #960000;
+	color: #ffffff;
 	display: inline-flex;
 	cursor: pointer;
 	align-items: center;
