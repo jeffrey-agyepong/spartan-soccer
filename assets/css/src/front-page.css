@@ -4,19 +4,20 @@
 
 /* ------ HERO BANNER ------ */
 
-.hero-banner,.fp-bg-img {
+.hero-banner,
+.fp-bg-img {
 	position: relative;
 	color: white;
 	font-weight: bold;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 	background: #053a4e;
 }
-.hero-banner::before{
+.hero-banner::before {
 	background-image: url("https://jagyepong.com/spartansoccer/wp-content/uploads/2024/05/hero-image-spartan.webp");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	content: '	';
+	content: "	";
 	position: absolute;
 	inset: 0;
 	opacity: 0.4;
@@ -30,7 +31,7 @@
 .hero-banner h2 {
 	max-width: 24ch;
 	text-transform: uppercase;
-	font-size: clamp(2.25rem, 1.6364rem + 3.2727vw, 4.5rem);
+	font-size: clamp(2rem, 1.7708rem + 3.0556vw, 4.0625rem);
 	margin: 0;
 	padding-top: 50px;
 }
@@ -38,12 +39,7 @@
 	font-size: 1.5rem;
 }
 .flex-btn {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 10px;
-	font-size: 1rem;
-	text-align: center;
-	width: 100%;
+	padding: 0 20px;
 }
 .about .btn {
 	margin-bottom: 1.5rem;
@@ -56,20 +52,21 @@
 .newsletter {
 	padding: 15px;
 }
-.headlines{
+.headlines {
 	padding: 15px;
 }
-.headlines h3{
+.headlines h3 {
 	margin-top: 0.15rem;
 	margin-bottom: 0.15rem;
 }
-.headlines p, .headlines li{
+.headlines p,
+.headlines li {
 	font-size: 1rem;
 }
-.headlines ul{
+.headlines ul {
 	margin-bottom: 0.15rem;
 }
-video{
+video {
 	margin: 0 auto;
 }
 .program-card {
@@ -83,14 +80,14 @@ video{
 	margin-bottom: 1.5rem;
 	box-shadow: 0px 7px 10px rgb(5, 5, 5);
 }
-.program-body{
+.program-body {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
 }
 .program-card .header {
 	color: #000000;
-	background: #D9D9D9;
+	background: #d9d9d9;
 	width: 100%;
 	border-radius: 15px 15px 0 0;
 	padding: 10px;
@@ -101,23 +98,23 @@ video{
 	width: 100%;
 	padding: 10px;
 }
-.program-link{
-	background: #40525A;
+.program-link {
+	background: #40525a;
 	width: 100%;
 	border-radius: 0 0 15px 15px;
 	padding: 10px;
 	text-align: center;
-	border-top: 8px solid #0094DE;
+	border-top: 8px solid #0094de;
 }
-.program-link a{
+.program-link a {
 	color: #ffffff;
-
 }
-.fp-bg-img h3, .fp-bg-img p{
+.fp-bg-img h3,
+.fp-bg-img p {
 	text-align: left;
 }
-.fp-bg-img::before{
-	content: '	';
+.fp-bg-img::before {
+	content: "	";
 	position: absolute;
 	inset: 0;
 	opacity: 0.3;
@@ -125,13 +122,12 @@ video{
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
-	color: white; 
+	color: white;
 	text-align: center;
 	font-weight: bold;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-
 }
-.fp-bg-img .container{
+.fp-bg-img .container {
 	padding: 25px;
 	display: flex;
 	flex-direction: column;
@@ -142,15 +138,15 @@ video{
 	inset: 0;
 	text-align: center;
 }
-.fp-bg-img h3{
+.fp-bg-img h3 {
 	margin-bottom: 0;
 	font-size: clamp(1rem, 0.6591rem + 1.8182vw, 2.25rem);
 }
-.fp-bg-img p{
+.fp-bg-img p {
 	font-size: clamp(1rem, 0.8636rem + 0.7273vw, 1.5rem);
 	margin: 0;
 }
-.fp-bg-img{
+.fp-bg-img {
 	padding: 200px;
 }
 .sponsor-logos {
@@ -161,33 +157,34 @@ video{
 	gap: 25px;
 	margin-bottom: 1.5rem;
 }
-.sponsor-logo{
+.sponsor-logo {
 	max-width: 250px;
 }
-.about,.sponsors{
-background: #030910;
+.about,
+.sponsors {
+	background: #030910;
 }
-.light-bg{
+.light-bg {
 	background: #e8e1e1;
-	border-radius: 5px;	
+	border-radius: 5px;
 }
 
-.newsletter{
+.newsletter {
 	color: #000000;
 	padding: 15px;
 	margin-bottom: 2.5rem;
 }
-.newsletter-card{
+.newsletter-card {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: #D9D9D9;
+	background: #d9d9d9;
 	padding: 20px;
 	max-width: 600px;
 	margin: 0 auto;
 }
-.newsletter-container{
+.newsletter-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -195,50 +192,53 @@ background: #030910;
 	gap: 25px;
 	padding-bottom: 10px;
 }
-.newsletter button{
+.newsletter button {
 	padding: 20px;
-  border-radius: 999px;
-  font-weight: bold;
-  text-transform: uppercase;
-  background: #ffffff;
-  margin-top: 10px;
+	border-radius: 8px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #ffffff;
+	margin-top: 10px;
 }
-.newsletter button:hover{
+.newsletter button:hover {
 	background: #960000;
 	color: #ffffff;
 }
 
-input[type="email"]{
+input[type="email"] {
 	padding: 10px;
-  border-radius: 8px;
+	border-radius: 8px;
 }
 @media (--content-query) {
 	.hero-banner {
 		height: 80vh;
 	}
-	.flex-btn{
-		flex-wrap: nowrap;
-		max-width: 750px;
+	.flex-btn {
+		max-width: 360px;
+		padding: 0;
 	}
-	.hero-text{
+	.hero-text {
 		padding: 50px 0 0 100px;
 	}
 	.grid-container {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
 	}
-	.grid-container-2 {
-		grid-template-columns: 3fr 1fr;
-	}
-	.about{
+
+	.about {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 25px;
+		padding: 80px 50px 25px 50px;
 	}
-	.about, .programs, .gallery-section, .sponsors, .newsletter {
-		padding: 25px 100px;
+
+	.programs,
+	.gallery-section,
+	.sponsors,
+	.newsletter {
+		padding: 25px 50px;
 	}
-	.about-img{
+	.about-img {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -246,18 +246,22 @@ input[type="email"]{
 		margin: 0 auto;
 		margin-bottom: 180px;
 	}
-	.fp-bg-img h3, .fp-bg-img p{
-		text-align: center
+	.fp-bg-img h3,
+	.fp-bg-img p {
+		text-align: center;
 	}
-	.fp-bg-img{
-		background-position:top;
+	.fp-bg-img {
+		background-position: top;
 	}
-	.fp-bg-img{
+	.fp-bg-img {
 		padding: 200px;
 	}
-	.gallery{
+	.gallery {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust minmax value as needed */
+		grid-template-columns: repeat(
+			auto-fill,
+			minmax(300px, 1fr)
+		); /* Adjust minmax value as needed */
 		grid-auto-rows: minmax(200px, auto); /* Adjust minmax value as needed */
 		width: 100%; /* Set the width to 100% to span across the screen */
 		grid-gap: 0.5rem;
@@ -268,22 +272,6 @@ input[type="email"]{
 		object-fit: cover; /* Ensures images cover the entire grid item */
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (--sidebar-query) {
 	.hero-banner {
@@ -298,27 +286,18 @@ input[type="email"]{
 			margin-top: 0;
 		}
 	}
-	.hero-text{
+	.hero-text {
 		padding: 10px 0 0 100px;
 	}
-	.flex-btn {
-		display: flex;
-		gap: 60px;
-		align-items: center;
-		justify-content: center;
-	}
 
-	.program-cards{
+	.grid-container-2 {
+		grid-template-columns: 3fr 1fr;
+	}
+	.program-cards {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		gap: 25px;
 	}
-
-
-
-
-
-
 
 	.hero-banner .hero-banner .site {
 		display: grid;

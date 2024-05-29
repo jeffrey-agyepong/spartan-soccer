@@ -33,7 +33,7 @@ if ( is_home() ) {
 				</p>
 				<div class="flex-btn uppercase">
 					<a href="/recruitment" class="btn">Join The Spartan Family</a>
-					<a href="/contact" class="btn btn-secondary">Get In Touch</a>
+					<!-- <a href="/contact" class="btn btn-secondary">Get In Touch</a> -->
 				</div>
 			</div>
 		</div>
@@ -61,6 +61,7 @@ if ( is_home() ) {
 			<div class="about-img">
 				<img src="./wp-content/uploads/2024/05/about-section-spartan.webp" alt="About Us Image" class="rounded">
 			</div>
+			
 		</section>
 		<section class="headlines">
 			<h2>Spartan Headlines</h2>
@@ -205,7 +206,7 @@ if ( is_home() ) {
 		</h2>
 		<div class="sponsor-logos">
 			<div class="sponsor-logo">
-				<img src="/wp-content/uploads/2024/05/advantage.png" class="light-bg" alt="Advantage Logo">
+				<img src="./wp-content/uploads/2024/05/advantage.png" class="light-bg" alt="Advantage Logo">
 			</div>
 			<div class="sponsor-logo">
 				<img src="./wp-content/uploads/2024/05/Panago-Logo.png" alt="Sponsor Logo">

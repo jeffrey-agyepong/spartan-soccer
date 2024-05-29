@@ -17,7 +17,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 ?>
 <main id="primary" class="site-main">
 <section class="news">
-<div class="page-header">
+<div class="page-header-2">
 			<h2 class="uppercase">
 				<?php the_title(); ?>
 			</h2>

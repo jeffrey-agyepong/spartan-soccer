@@ -21,13 +21,14 @@ wp_rig()->print_styles( 'wp-rig-content' );
 				<?php the_title(); ?>
 			</h2>
 		</div>
-		<div class="container">
-			<div class="headline-section">
-				<p>
-					Be Your Best To Have The Best Game
-				</p>
-			</div>
 
+		<div class="headline-section">
+			<p>
+				Be Your Best To Have The Best Game
+			</p>
+		</div>
+
+		<div class="container">
 			<div>
 				<p>
 					Spartan Soccer offers soccer in a recreational and competitive league with the primary goal of

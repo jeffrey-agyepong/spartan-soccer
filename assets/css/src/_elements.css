@@ -92,18 +92,16 @@ table {
 
 .btn {
 	background-color: #960000;
+	border: 4px solid #960000;
 	color: #ffffff;
 	display: inline-flex;
 	cursor: pointer;
 	align-items: center;
 	justify-content: center;
-	border-radius: 9999px;
-	border-width: 1px;
+	border-radius: 8px;
+	/* border-width: 1px; */
 	--tw-border-opacity: 1;
-	border-color: rgb(156 163 175 / var(--tw-border-opacity));
 	padding: 0.875rem 1.5rem;
-	padding-right: 1.5rem;
-	padding-left: 1.5rem;
 	text-align: center;
 	font-size: 1.25rem;
 	line-height: 1.5rem;
@@ -128,8 +126,24 @@ table {
 	color: #111212 !important;
 	background-color: #ffffff;
 }
+
+.main-navigation .btn-tertiary a{
+	color: #ffffff !important;
+	padding: 0.85rem 1.5rem;
+	border: 2px solid #960000;
+	border-radius: 8px;
+	background: #960000;
+	font-weight: bold;
+}
+.main-navigation .btn-tertiary a:hover{
+	color: #960000 !important;
+	background: #ffffff;
+}
+
+
+
 .btn:hover {
-	background-color: #00aaff;
-	border-color: #ffffff;
-	color: #ffffff;
+	background-color: #ffffff;
+	border: 4px solid #960000;
+	color: #960000;
 }

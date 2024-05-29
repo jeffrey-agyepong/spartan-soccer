@@ -445,6 +445,7 @@ nav div.wp-block-navigation__responsive-dialog {
 			& .menu {
 				display: flex;
 				justify-content: center;
+				align-items: center;
 			}
 		}
 

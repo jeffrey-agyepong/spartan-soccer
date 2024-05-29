@@ -123,5 +123,8 @@
     "lint:gulp": "eslint gulp/",
     "lint:gulp:fix": "eslint --fix gulp/",
     "editor-support": "node gulp/editorSupport.js"
+  },
+  "dependencies": {
+    "motion": "^10.17.0"
   }
 }
