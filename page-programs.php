@@ -29,10 +29,19 @@ wp_rig()->print_styles( 'wp-rig-content' );
 
 		<div class="container">
 			<?php the_content(); ?>
-			
+
 		</div>
 	</section>
 </main><!-- #primary -->
+<script>
+	document.querySelectorAll(".accordion-item").forEach((item) => {
+		item
+			.querySelector(".accordion-item-header")
+			.addEventListener("click", () => {
+				item.classList.toggle("open");
+			});
+	});
+</script>
 <?php
 get_sidebar();
 get_footer();

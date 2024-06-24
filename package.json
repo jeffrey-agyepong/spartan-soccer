@@ -125,6 +125,7 @@
     "editor-support": "node gulp/editorSupport.js"
   },
   "dependencies": {
+    "jquery": "^3.7.1",
     "motion": "^10.17.0"
   }
 }

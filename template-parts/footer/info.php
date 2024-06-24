@@ -15,9 +15,7 @@ namespace WP_Rig\WP_Rig;
 		<a href="/">
 			<img src="https://jagyepong.com/spartansoccer/wp-content/uploads/2024/05/cropped-spartan.png" alt="Spartan Soccer Logo" class="mail">
 		</a>
-		<p class="treaty">
-		“We wish to acknowledge that the land on  which we gather is Treaty 6 territory and a traditional meeting ground  and home for many Indigenous Peoples, including Cree, Saulteaux,  Niitsitapi (Blackfoot), Métis, and Nakota Sioux Peoples who have called  this area home since time immemorial. Spartan Soccer is dedicated to  ensuring that the spirit of Treaty 6 is honoured and respected.”
-		</p>
+		
 	</div>
 	<div class="footer-flex">
 		<div class="footer-item contact">

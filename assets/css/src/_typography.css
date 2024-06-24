@@ -31,6 +31,9 @@ h6 {
 h2{
 	font-size: var(--font-size-larger);
 }
+h3{
+	font-weight: normal;
+}
 
 .entry-title-singular,
 .page-title {

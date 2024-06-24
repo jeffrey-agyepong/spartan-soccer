@@ -61,13 +61,18 @@ if ( is_home() ) {
 			<div class="about-img">
 				<img src="./wp-content/uploads/2024/05/about-section-spartan.webp" alt="About Us Image" class="rounded">
 			</div>
-			
+			<p class="treaty">
+				“We wish to acknowledge that the land on which we gather is Treaty 6 territory and a traditional meeting
+				ground and home for many Indigenous Peoples, including Cree, Saulteaux, Niitsitapi (Blackfoot), Métis,
+				and Nakota Sioux Peoples who have called this area home since time immemorial. Spartan Soccer is
+				dedicated to ensuring that the spirit of Treaty 6 is honoured and respected.”
+			</p>
 		</section>
 		<section class="headlines">
 			<h2>Spartan Headlines</h2>
 			<div class="program-card">
 				<div class="program-body">
-				<h3>Video Conference</h3>
+					<h3>Video Conference</h3>
 					<p>
 						Find out more about Spartan
 					</p>
@@ -83,7 +88,7 @@ if ( is_home() ) {
 			</div>
 			<div class="program-card">
 				<div class="program-body">
-				<h3>Youth Club & Community</h3>
+					<h3>Youth Club & Community</h3>
 					<p>
 						Go to Programs menu for details
 					</p>
@@ -98,54 +103,57 @@ if ( is_home() ) {
 	<!-- -------PROGRAMS------- -->
 	<section class="programs">
 		<div class="container">
-		<h2 class="uppercase">Programs</h2>
-		<div class="program-cards">
-			<div class="program-card">
-				<div class="header">
-					<h3 class="uppercase">Adult</h3>
+			<h2 class="uppercase">Programs</h2>
+			<div class="program-cards">
+				<div class="program-card">
+					<div class="header">
+						<h3 class="uppercase">Adult</h3>
+					</div>
+					<div class="program-body">
+						<p>
+							We register and manage teams in external leagues in addition to our internal program. Some
+							teams
+							have structured training with coaches (such as our EDSA Mens). All teams are invited to
+							coached
+							sessions as a bonus.
+						</p>
+					</div>
+					<div class="program-link">
+						<a href="#">Learn More</a>
+					</div>
 				</div>
-				<div class="program-body">
-					<p>
-						We register and manage teams in external leagues in addition to our internal program. Some
-						teams
-						have structured training with coaches (such as our EDSA Mens). All teams are invited to coached
-						sessions as a bonus.
-					</p>
+				<div class="program-card">
+					<div class="header">
+						<h3 class="uppercase">Youth</h3>
+					</div>
+					<div class="program-body">
+						<p>
+							TBA
+						</p>
+					</div>
+					<div class="program-link">
+						<a href="#">Learn More</a>
+					</div>
 				</div>
-				<div class="program-link">
-					<a href="#">Learn More</a>
+				<div class="program-card">
+					<div class="header">
+						<h3 class="uppercase">Tournaments</h3>
+					</div>
+					<div class="program-body">
+						<p>
+							We currently offer three different tournaments during the year with a theme. This will be
+							open
+							event
+							for all residents of Alberta for Mens, Womens, COED, and Youth teams.  Spartan may change
+							the
+							formatting and structure depending upon number of teams registered. 
+						</p>
+					</div>
+					<div class="program-link">
+						<a href="#">Learn More</a>
+					</div>
 				</div>
 			</div>
-			<div class="program-card">
-				<div class="header">
-					<h3 class="uppercase">Youth</h3>
-				</div>
-				<div class="program-body">
-					<p>
-						TBA
-					</p>
-				</div>
-				<div class="program-link">
-					<a href="#">Learn More</a>
-				</div>
-			</div>
-			<div class="program-card">
-				<div class="header">
-					<h3 class="uppercase">Tournaments</h3>
-				</div>
-				<div class="program-body">
-					<p>
-						We currently offer three different tournaments during the year with a theme. This will be open
-						event
-						for all residents of Alberta for Mens, Womens, COED, and Youth teams.  Spartan may change the
-						formatting and structure depending upon number of teams registered. 
-					</p>
-				</div>
-				<div class="program-link">
-					<a href="#">Learn More</a>
-				</div>
-			</div>
-		</div>
 		</div>
 	</section>
 
@@ -164,79 +172,84 @@ if ( is_home() ) {
 
 	<!-- -------Gallery------- -->
 	<section class="gallery-section">
-	<div class="container">
-	<h2>
-			Gallery
-		</h2>
-		<div class="gallery">
-			<div class="gallery-img">
-				<img src="./wp-content/uploads/2024/05/gallery01.webp" alt="Spartan Gallery Image">
-			</div>
-			<div class="gallery-img">
-				<img src="./wp-content/uploads/2024/05/gallery02.webp" alt="Spartan Gallery Image">
-			</div>
-			<div class="gallery-img">
-				<img src="./wp-content/uploads/2024/05/gallery03.webp" alt="Spartan Gallery Image">
-			</div>
-			<div class="gallery-img">
-				<img src="./wp-content/uploads/2024/05/gallery04.webp" alt="Spartan Gallery Image">
-			</div>
-			<div class="gallery-img">
-				<img src="./wp-content/uploads/2024/05/gallery05.webp" alt="Spartan Gallery Image">
-			</div>
-			<div class="gallery-img">
-				<img src="./wp-content/uploads/2024/05/gallery06.webp" alt="Spartan Gallery Image">
-			</div>
-			<div class="gallery-img">
-				<img src="./wp-content/uploads/2024/05/gallery07.webp" alt="Spartan Gallery Image">
-			</div>
-			<div class="gallery-img">
-				<img src="./wp-content/uploads/2024/05/gallery08.webp" alt="Spartan Gallery Image">
-			</div>
+		<div class="container">
+			<h2 class="uppercase">
+				Gallery
+			</h2>
+			<div class="gallery">
+				<div class="gallery-img container__img-holder">
+					<img src="./wp-content/uploads/2024/05/gallery01.webp" alt="Spartan Gallery Image">
+				</div>
+				<div class="gallery-img container__img-holder">
+					<img src="./wp-content/uploads/2024/05/gallery02.webp" alt="Spartan Gallery Image">
+				</div>
+				<div class="gallery-img container__img-holder">
+					<img src="./wp-content/uploads/2024/05/gallery03.webp" alt="Spartan Gallery Image">
+				</div>
+				<div class="gallery-img container__img-holder">
+					<img src="./wp-content/uploads/2024/05/gallery04.webp" alt="Spartan Gallery Image">
+				</div>
+				<div class="gallery-img container__img-holder">
+					<img src="./wp-content/uploads/2024/05/gallery05.webp" alt="Spartan Gallery Image">
+				</div>
+				<div class="gallery-img container__img-holder">
+					<img src="./wp-content/uploads/2024/05/gallery06.webp" alt="Spartan Gallery Image">
+				</div>
+				<div class="gallery-img container__img-holder">
+					<img src="./wp-content/uploads/2024/05/gallery07.webp" alt="Spartan Gallery Image">
+				</div>
+				<div class="gallery-img container__img-holder">
+					<img src="./wp-content/uploads/2024/05/gallery08.webp" alt="Spartan Gallery Image">
+				</div>
 
+			</div>
+		</div>
+	</section>
+	<div class="img-popup">
+		<img src="" alt="Popup Image">
+		<div class="close-btn">
+			<div class="bar"></div>
+			<div class="bar"></div>
 		</div>
 	</div>
-	</section>
-
 	<!-- -------Sponsors------- -->
 	<section class="sponsors">
 		<div class="container">
-		<h2>
-			Our Sponsors
-		</h2>
-		<div class="sponsor-logos">
-			<div class="sponsor-logo">
-				<img src="./wp-content/uploads/2024/05/advantage.png" class="light-bg" alt="Advantage Logo">
+			<h2>
+				Our Sponsors
+			</h2>
+			<div class="sponsor-logos">
+				<div class="sponsor-logo">
+					<img src="./wp-content/uploads/2024/05/advantage.png" class="light-bg" alt="Advantage Logo">
+				</div>
+				<div class="sponsor-logo">
+					<img src="./wp-content/uploads/2024/05/Panago-Logo.png" alt="Sponsor Logo">
+				</div>
+				<div class="sponsor-logo">
+					<img src="./wp-content/uploads/2024/05/moxies.png" class="light-bg" alt="Moxies Logo">
+				</div>
+				<div class="sponsor-logo">
+					<img src="./wp-content/uploads/2024/05/powerplay.png" class="light-bg" alt="Powerplay Sports Logo">
+				</div>
+				<div class="sponsor-logo">
+					<img src="./wp-content/uploads/2024/05/tree.png" class="rounded" alt="Sponsor Logo">
+				</div>
+				<div class="sponsor-logo">
+					<img src="./wp-content/uploads/2024/05/infusef.png" class="light-bg" alt="Sponsor Logo">
+				</div>
+				<div class="sponsor-logo">
+					<img src="./wp-content/uploads/2024/05/dazzlling-dogs.png" alt="Sponsor Logo">
+				</div>
+				<div class="sponsor-logo">
+					<img src="./wp-content/uploads/2024/05/eurosport.png" alt="Sponsor Logo">
+				</div>
+				<div class="sponsor-logo">
+					<img src="./wp-content/uploads/2024/05/viva-tan.png" alt="Sponsor Logo">
+				</div>
+				<div class="sponsor-logo">
+					<img src="./wp-content/uploads/2024/05/central-social-hall.png" class="light-bg" alt="Sponsor Logo">
+				</div>
 			</div>
-			<div class="sponsor-logo">
-				<img src="./wp-content/uploads/2024/05/Panago-Logo.png" alt="Sponsor Logo">
-			</div>
-			<div class="sponsor-logo">
-				<img src="./wp-content/uploads/2024/05/moxies.png" class="light-bg" alt="Moxies Logo">
-			</div>
-			<div class="sponsor-logo">
-				<img src="./wp-content/uploads/2024/05/powerplay.png" class="light-bg" alt="Powerplay Sports Logo">
-			</div>
-			<div class="sponsor-logo">
-				<img src="./wp-content/uploads/2024/05/tree.png" class="rounded" alt="Sponsor Logo">
-			</div>
-			<div class="sponsor-logo">
-				<img src="./wp-content/uploads/2024/05/infusef.png" class="light-bg"
-					alt="Sponsor Logo">
-			</div>
-			<div class="sponsor-logo">
-				<img src="./wp-content/uploads/2024/05/dazzlling-dogs.png" alt="Sponsor Logo">
-			</div>
-			<div class="sponsor-logo">
-				<img src="./wp-content/uploads/2024/05/eurosport.png" alt="Sponsor Logo">
-			</div>
-			<div class="sponsor-logo">
-				<img src="./wp-content/uploads/2024/05/viva-tan.png" alt="Sponsor Logo">
-			</div>
-			<div class="sponsor-logo">
-				<img src="./wp-content/uploads/2024/05/central-social-hall.png" class="light-bg" alt="Sponsor Logo">
-			</div>
-		</div>
 		</div>
 	</section>
 
@@ -257,5 +270,37 @@ if ( is_home() ) {
 		</div>
 	</section>
 </main><!-- #primary -->
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+
+		// required elements
+		var imgPopup = document.querySelector('.img-popup');
+		var imgCont = document.querySelectorAll('.container__img-holder');
+		var popupImage = imgPopup.querySelector('img');
+		var closeBtn = document.querySelector('.close-btn');
+
+		// handle events
+		imgCont.forEach(function (container) {
+			container.addEventListener('click', function () {
+				var imgSrc = container.querySelector('img').getAttribute('src');
+				popupImage.setAttribute('src', imgSrc);
+				imgPopup.classList.add('opened');
+			});
+		});
+
+		[imgPopup, closeBtn].forEach(function (element) {
+			element.addEventListener('click', function () {
+				imgPopup.classList.remove('opened');
+				popupImage.setAttribute('src', '');
+			});
+		});
+
+		popupImage.addEventListener('click', function (e) {
+			e.stopPropagation();
+		});
+
+	});
+</script>
 <?php
 get_footer();

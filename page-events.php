@@ -16,13 +16,23 @@ wp_rig()->print_styles( 'wp-rig-content' );
 
 ?>
 <main id="primary" class="site-main">
-<section class="events">
-<div class="page-header">
+
+
+	<section class="contact">
+		<div class="page-header-2">
 			<h2 class="uppercase">
 				<?php the_title(); ?>
 			</h2>
 		</div>
-</section>
+
+		<div class="container">
+			<?php the_content(); ?>
+		</div>
+
+	</section>
+
+
+
 </main><!-- #primary -->
 <?php
 get_sidebar();
